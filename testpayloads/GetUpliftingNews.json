@@ -1,52 +1,43 @@
 {
-    "myMinecraftHelper": {
-        "lambda": {
-            "session": {
-                "new": false,
-                "sessionId": "SessionId.5694338b-10f7-47ea-b49a-48449766af31",
-                "application": {
-                    "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
-                },
-                "attributes": {
-                    "speechOutput": "You can ask questions such as, what's the recipe, or, you can say exit...Now, what can I help you with?",
-                    "repromptSpeech": "You can say things like, what's the recipe, or you can say exit...Now, what can I help you with?"
-                },
-                "user": {
-                    "userId": "amzn1.ask.account.AGJNWB3NWQG77L75YVKLQFQNRAWGK5H5BUHAO2SKYP67J4GUAE6KJT3PHL5AC7UINQCTJBTKRHL6KLKRPXTK53SPIKDE2EPMPFEQAG5KTSOU6XLVQY5SUMBUNCKGZDWG3XI2TKM6CFAJGK5VLEMQOZPFB3I4MD4PLLBTJPVZDMRUKCFCSLY7OEZ2UQWPBCEX6ECREMQWBAPITPQ"
-                }
-            },
-            "request": {
-                "type": "IntentRequest",
-                "requestId": "EdwRequestId.0f22a64f-347d-4d1d-bd59-6e5eaa87a540",
-                "intent": {
-                    "name": "GetUpliftingNews",
-                    "slots": {
-                        "Item": {
-                            "name": "Item",
-                            "value": "bow"
-                        }
-                    }
-                },
-                "locale": "en-US",
-                "timestamp": "2017-12-18T03:29:44Z"
-            },
-            "context": {
-                "AudioPlayer": {
-                    "playerActivity": "IDLE"
-                },
-                "System": {
-                    "application": {
-                        "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
-                    },
-                    "user": {
-                        "userId": "amzn1.ask.account.AGJNWB3NWQG77L75YVKLQFQNRAWGK5H5BUHAO2SKYP67J4GUAE6KJT3PHL5AC7UINQCTJBTKRHL6KLKRPXTK53SPIKDE2EPMPFEQAG5KTSOU6XLVQY5SUMBUNCKGZDWG3XI2TKM6CFAJGK5VLEMQOZPFB3I4MD4PLLBTJPVZDMRUKCFCSLY7OEZ2UQWPBCEX6ECREMQWBAPITPQ"
-                    },
-                    "device": {
-                        "supportedInterfaces": {}
-                    }
-                }
-            },
-            "version": "1.0"
-        }
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.82faea2e-a070-4652-ba1f-a82bdd6c58f8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+    },
+    "attributes": {
+      "speechOutput": "On this day in 558, Chlothar I is crowned King of the Franks.On this day in 1793, The Battle of Savenay: a decisive defeat of the royalist counter-revolutionaries in War in the Vendée during the French Revolution.On this day in 1972, A 6.5 magnitude earthquake strikes the Nicaraguan capital of Managua killing more than 10,000.",
+      "repromptSpeech": "Try saying repeat."
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
     }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.d733b201-96da-426f-9daf-8a36423b73f3",
+    "intent": {
+      "name": "GetUpliftingNews",
+      "slots": {}
+    },
+    "locale": "en-US",
+    "timestamp": "2017-12-22T01:05:25Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
 }
