@@ -1,0 +1,52 @@
+{
+    "myMinecraftHelper": {
+        "lambda": {
+            "session": {
+                "new": false,
+                "sessionId": "SessionId.5694338b-10f7-47ea-b49a-48449766af31",
+                "application": {
+                    "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+                },
+                "attributes": {
+                    "speechOutput": "You can ask questions such as, what's the recipe, or, you can say exit...Now, what can I help you with?",
+                    "repromptSpeech": "You can say things like, what's the recipe, or you can say exit...Now, what can I help you with?"
+                },
+                "user": {
+                    "userId": "amzn1.ask.account.AGJNWB3NWQG77L75YVKLQFQNRAWGK5H5BUHAO2SKYP67J4GUAE6KJT3PHL5AC7UINQCTJBTKRHL6KLKRPXTK53SPIKDE2EPMPFEQAG5KTSOU6XLVQY5SUMBUNCKGZDWG3XI2TKM6CFAJGK5VLEMQOZPFB3I4MD4PLLBTJPVZDMRUKCFCSLY7OEZ2UQWPBCEX6ECREMQWBAPITPQ"
+                }
+            },
+            "request": {
+                "type": "IntentRequest",
+                "requestId": "EdwRequestId.3d406827-8ff4-41a9-a685-0227788682e6",
+                "intent": {
+                    "name": "GetNewFactIntent",
+                    "slots": {
+                        "date": {
+                            "name": "date",
+                            "value": "2017-12-18"
+                        }
+                    }
+                },
+                "locale": "en-US",
+                "timestamp": "2017-12-18T02:58:34Z"
+            },
+            "context": {
+                "AudioPlayer": {
+                    "playerActivity": "IDLE"
+                },
+                "System": {
+                    "application": {
+                        "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+                    },
+                    "user": {
+                        "userId": "amzn1.ask.account.AGJNWB3NWQG77L75YVKLQFQNRAWGK5H5BUHAO2SKYP67J4GUAE6KJT3PHL5AC7UINQCTJBTKRHL6KLKRPXTK53SPIKDE2EPMPFEQAG5KTSOU6XLVQY5SUMBUNCKGZDWG3XI2TKM6CFAJGK5VLEMQOZPFB3I4MD4PLLBTJPVZDMRUKCFCSLY7OEZ2UQWPBCEX6ECREMQWBAPITPQ"
+                    },
+                    "device": {
+                        "supportedInterfaces": {}
+                    }
+                }
+            },
+            "version": "1.0"
+        }
+    }
+}
