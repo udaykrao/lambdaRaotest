@@ -1,0 +1,11 @@
+{
+  "name": "skill-sample-nodejs-rao-test",
+  "version": "1.0.0",
+  "description": "Rao Test sample skill",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}

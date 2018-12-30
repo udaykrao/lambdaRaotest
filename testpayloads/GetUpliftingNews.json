@@ -1,0 +1,43 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.82faea2e-a070-4652-ba1f-a82bdd6c58f8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+    },
+    "attributes": {
+      "speechOutput": "On this day in 558, Chlothar I is crowned King of the Franks.On this day in 1793, The Battle of Savenay: a decisive defeat of the royalist counter-revolutionaries in War in the Vendée during the French Revolution.On this day in 1972, A 6.5 magnitude earthquake strikes the Nicaraguan capital of Managua killing more than 10,000.",
+      "repromptSpeech": "Try saying repeat."
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.d733b201-96da-426f-9daf-8a36423b73f3",
+    "intent": {
+      "name": "GetUpliftingNews",
+      "slots": {}
+    },
+    "locale": "en-US",
+    "timestamp": "2017-12-22T01:05:25Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

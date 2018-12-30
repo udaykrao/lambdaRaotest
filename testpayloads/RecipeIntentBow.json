@@ -1,0 +1,45 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.d3c32460-4a2b-4cd8-bdb2-22c663bd5325",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.1748a0e4-05e7-49aa-9ef9-ae16d8d2a75d",
+    "intent": {
+      "name": "RecipeIntent",
+      "slots": {
+        "Item": {
+          "name": "Item",
+          "value": "bow"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-12-22T01:23:23Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

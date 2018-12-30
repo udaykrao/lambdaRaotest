@@ -1,0 +1,48 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.d3c32460-4a2b-4cd8-bdb2-22c663bd5325",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+    },
+    "attributes": {
+      "speechOutput": "A bow can be crafted by placing three string in the rightmost column and then placing tree sticks in a less than sign pattern next to the string in a crafting table.",
+      "repromptSpeech": "Try saying repeat."
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.a9191a5a-9154-4424-aaab-179bef55040a",
+    "intent": {
+      "name": "WhatHappenedOnIntent",
+      "slots": {
+        "date": {
+          "name": "date",
+          "value": "2017-08-11"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-12-22T01:25:46Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.2ed99b6c-5829-49b6-9fcf-e2d4f0a743ab"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AEWAHO7TTTSLW7DGZFSQ3NJOMWRVJGSPDD6JT7N23PPMQBT4WD6G57FMUQBXQHWUNZN6SC2SOX4O4AG3BOH4DWFAHDHKKVLEZ2KQTWPJZSLY2VJELHXCUJ3KRSABY25PRR5XCJHKVKVPK6A5NZ7VH7OKVWZ4U3UI2ALMGNBZY33K6QIXP5634CS7BCOQ645COE7SH5JJR57H4AA"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}
